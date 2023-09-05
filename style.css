@@ -1,0 +1,21 @@
+table {
+  border-collapse: collapse;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 80%;
+  margin: 4rem;
+  text-align: center;
+}
+
+td,
+th {
+  border: 2px solid green;
+}
+tr:nth-child(even) {
+  background-color: yellowgreen;
+}
+h1 {
+  text-align: center;
+  color: green;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
